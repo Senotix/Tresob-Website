@@ -41,7 +41,7 @@ document.addEventListener('DOMContentLoaded', function() {
     document.querySelectorAll('.btn-primary, .btn-download').forEach(button => {
         button.addEventListener('click', () => {
             // Download link - replace with your actual download URL
-            const downloadUrl = 'https://www.mediafire.com/file/lsod8sim6cx56tv/Tresob_1.0.0.zip/file';
+            const downloadUrl = 'https://www.mediafire.com/file/nt4ee2m0r1dmjbf/Tresab.zip/file';
             
             // Open download link in new tab
             window.open(downloadUrl, '_blank');
