@@ -41,7 +41,7 @@ document.addEventListener('DOMContentLoaded', function() {
     document.querySelectorAll('.btn-primary, .btn-download').forEach(button => {
         button.addEventListener('click', () => {
             // Download link - replace with your actual download URL
-            const downloadUrl = 'https://www.mediafire.com/file/nt4ee2m0r1dmjbf/Tresab.zip/file';
+            const downloadUrl = 'https://download937.mediafire.com/a92abjpg9laggCRfkssGGn9g0EZQwg6c36G1bXYjxv95pwG4TNYKhLFsZSs6jPc0PZax3mnGq7HujbZzsr08fEix2LLlwY1wtSkRN_RaNkMLVAsf6mUpVih-5Xbl-u2HUP-Tjdw6irzNAaw_jpQVLAhUJ-Tc8Q3Es9eT5g_JykyG/nt4ee2m0r1dmjbf/Tresob.zip';
             
             // Open download link in new tab
             window.open(downloadUrl, '_blank');
