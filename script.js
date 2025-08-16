@@ -41,7 +41,7 @@ document.addEventListener('DOMContentLoaded', function() {
     document.querySelectorAll('.btn-primary, .btn-download').forEach(button => {
         button.addEventListener('click', () => {
             // Download link - replace with your actual download URL
-            const downloadUrl = 'https://download1501.mediafire.com/ojspwbnpfuwguAih4tDKf2jikPAOF1uMBHfJ2P8cZSOMF6wbUxapNVUe74g1vWrFNk-QRMBjhGCT9V1LBPI1SMrQOWnNsv2SPzPzutLLjIakIgpc62yclhGqQ_h4K3e6Jhxlr1JZb57EndRk_KeS-YJao-T1yVwjj5xMdJrcak2yuw/rp0t44bid5xi7vy/Tresob+Recorder.zip';
+            const downloadUrl = 'https://download1501.mediafire.com/lbkq7cexcmmgUbk-2lw9zeAGzZi5d0R2roDsyOj-i-wZXNEym0BUAb0tYvV7zeocfQt0-OCqTKiMoNPIETwSqXFz-6SsUGx0NPHmrMH6PdOVal9HPiaEM3ItUlQ7xIgeW6zK9DgmhQ_vzNcIbugR36H-O4m_yAcffr_7jPvZqHsy8Q/rp0t44bid5xi7vy/Tresob+Recorder.zip ';
             
             // Open download link in new tab
             window.open(downloadUrl, '_blank');
